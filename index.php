@@ -89,7 +89,8 @@
 	<div class="product-group" >
 		<div class="row">            
 			<?php
-			$connect = mysqli_connect('3.132.234.157','quanvh','123@123a','toy_car');
+			//$connect = mysqli_connect('3.132.234.157','quanvh','123@123a','toy_car');
+			$connect = mysqli_connect('localhost','root','','toy');
 			$sql = "SELECT * FROM product";
 			$result = mysqli_query($connect, $sql);
 			while ($row_toy = mysqli_fetch_array($result))
