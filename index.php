@@ -47,8 +47,8 @@
 				<li><a href="http://localhost:8080/Tunesourcewebsite/managesong.php"> <span class="glyphicon glyphicon-music"> Manage Song </span></a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right"  >
-				<li><a href="http://localhost:8080/Tunesourcewebsite/dangnhap.php"> <span class="glyphicon glyphicon-log-in "> Login</span></a></li>
-				<li><a href="http://localhost:8080/Tunesourcewebsite/register.php"><span class="glyphicon glyphicon-user"> Register </span></a></li>
+				<li><a href=""> <span class="glyphicon glyphicon-log-in "> Login</span></a></li>
+				<li><a href=""><span class="glyphicon glyphicon-user"> Register </span></a></li>
 			</ul>
 			<ul>
 				<form style="margin-left: 100px" class="form-inline my-2 my-lg-0" action="search.php" method="GET">
@@ -67,13 +67,13 @@
 			</ol>
 			<div class="carousel-inner">
 				<div class="item active">
-					<img src="https://daiphatvienthong.vn/upload/images/003-mua-ban-xe-o-to-bien-hinh-do-choi-sieu-xe-lambogini-gia-re-hcm-2.jpg" width="500px" height="500px">
+					<img src="img/anhnen1.jpg" width="500px" height="500px">
 				</div >
 				<div class="item">
-					<img src="http://image.xedoisong.vn/w1024/Uploaded/2019/ycivopcg/2017_12_13/supercar/xedoisong_sieu_xe_nhat_ban_1_jusk.jpg " width="500px" height="500px" >
+					<img src="img/anhnen2.jpg " width="500px" height="500px" >
 				</div >
 				<div class="item">
-					<img src="http://anhnendep.net/wp-content/uploads/2015/07/hinh-nen-xe-dep-hd-10.jpg" width="500px" height="500px" >
+					<img src="img/anhnen3" width="500px" height="500px" >
 				</div>
 			</div>
 			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
