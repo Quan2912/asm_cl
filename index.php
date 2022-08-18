@@ -89,7 +89,7 @@
 	<div class="product-group" >
 		<div class="row">            
 			<?php
-			$connect = mysqli_connect('3.132.234.157','quan','123@123a','shoptoys');
+			$connect = mysqli_connect('3.132.234.157','quan','123@123a','quanvh');
 			//$connect = mysqli_connect('localhost','root','','shoptoys');
 			$sql = "SELECT * FROM product";
 			$result = mysqli_query($connect, $sql);
