@@ -73,7 +73,7 @@
 					<img src="img/anhnen2.jpg " width="500px" height="500px" >
 				</div >
 				<div class="item">
-					<img src="img/anhnen2" width="500px" height="500px" >
+					<img src="img/anhnen3.jpg" width="500px" height="500px" >
 				</div>
 			</div>
 			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
