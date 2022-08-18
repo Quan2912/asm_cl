@@ -44,7 +44,7 @@
 				<li><a href=" " ><span class="glyphicon glyphicon-home">Home </span> </a></li>
 				<li><a href=""><span class="glyphicon glyphicon-asterisk"> News</span></a></li>
 				<li><a href=""> <span class="glyphicon glyphicon-envelope"> Contact</span></a></li>
-				<li><a href="http://localhost:8080/Tunesourcewebsite/managesong.php"> <span class="glyphicon glyphicon-music"> Manage Song </span></a></li>
+				<li><a href=""> <span class="glyphicon glyphicon-music"> Manage Toy </span></a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right"  >
 				<li><a href=""> <span class="glyphicon glyphicon-log-in "> Login</span></a></li>
@@ -89,8 +89,8 @@
 	<div class="product-group" >
 		<div class="row">            
 			<?php
-			//$connect = mysqli_connect('3.132.234.157','quanvh','123@123a','mydb');
-			$connect = mysqli_connect('localhost','root','','shoptoys');
+			$connect = mysqli_connect('3.132.234.157','quan','123@123a','shoptoys');
+			//$connect = mysqli_connect('localhost','root','','shoptoys');
 			$sql = "SELECT * FROM product";
 			$result = mysqli_query($connect, $sql);
 			while ($row_shoptoys = mysqli_fetch_array($result))
