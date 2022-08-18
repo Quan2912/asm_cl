@@ -90,15 +90,16 @@
 		<div class="row">            
 			<?php
 			//$connect = mysqli_connect('3.132.234.157','quanvh','123@123a','mydb');
-			$connect = mysqli_connect('localhost','root','','mydb');
+			$connect = mysqli_connect('localhost','root','','shoptoys');
 			$sql = "SELECT * FROM product";
 			$result = mysqli_query($connect, $sql);
-			while ($row_toy = mysqli_fetch_array($result))
+			while ($row_shoptoys = mysqli_fetch_array($result))
 			{
-				$product_id=$row_toy['product_id'];
-				$product_name=$row_toy['product_name'];
-				$product_price=$row_toy['product_price'];
-				$product_img=$row_toy['product_img'];
+				$product_PID=$row_shoptoys['product_PID'];
+				$product_PName=$row_shoptoys['product_PName'];
+				$product_Genre=$row_shoptoys['product_Genre'];
+				$product_Price=$row_shoptoys['product_Price'];
+				$product_Img=$row_shoptoys['product_Img'];
 				// $song_audio=$row_song['song_audio'];
 				// $song_img=$row_song['song_img'];
 				// $genre_id=$row_song['song_id'];
@@ -109,11 +110,11 @@
 					<ul >
 						<div class="song-group">
 							<div class="card">
-								<img class="card-img-top" src="img/<?php echo"$product_img"?>" style = "height: 200px; width: 250px; margin-top: 100px">
+								<img class="card-img-top" src="img/<?php echo"$product_Img"?>" style = "height: 200px; width: 250px; margin-top: 100px">
 								<div class="card-body"></div>
-								<h5 style="color: white" class="card-title"><?php echo"$product_id"?></h5>
-								<h5 style="color: white" class="card-title"><?php echo"$product_name"?></h5>
-								<h5 style="color: white" class="card-title"><?php echo"$product_price"?></h5>
+								<h5 style="color: white" class="card-title"><?php echo"$product_PID"?></h5>
+								<h5 style="color: white" class="card-title"><?php echo"$product_Name"?></h5>
+								<h5 style="color: white" class="card-title"><?php echo"$product_Price"?></h5>
 								</div>
 								</div>
 								</ul>
